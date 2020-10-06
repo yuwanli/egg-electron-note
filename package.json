@@ -1,0 +1,18 @@
+{
+  "name": "egg-electorn-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.28.0",
+    "egg-bin": "^4.15.0",
+    "egg-cors": "^2.2.3",
+    "egg-mysql": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
