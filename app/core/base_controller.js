@@ -8,6 +8,13 @@ class BaseController extends Controller {
     };
   }
 
+  error(code, message) {
+    this.ctx.body = {
+      code,
+      message,
+    };
+  }
+
   notFound(msg) {
     msg = msg || 'not found';
     this.ctx.throw(404, msg);
